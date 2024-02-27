@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my to-do list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>ברוכים הבאים!</h1>
+
+    <div id="inputcontainer">
+      <input type="text" name="textInp" id="myInp" placeholder="הכנס משימה" />
+      <div id="buttonsContainer">
+        <button class="funcBtn" onclick="addTodo()">+ הוסף משימה</button>
+        <button class="funcBtn" onclick="resetTodos()">אפס ♻️</button>
+      </div>
+    </div>
+    <div id="pContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
